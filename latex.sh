@@ -11,6 +11,9 @@ apt-get install -y texlive-latex-extra
 # Needed for cleanup of latex builds
 apt-get install -y latexmk
 
+# General ease of use
+apt-get install -y pandoc
+
 # Cleanup
 apt-get -y autoremove
 apt-get -y clean
